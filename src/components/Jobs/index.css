@@ -1,0 +1,247 @@
+.jobs-bg-container {
+  background-color: #000000;
+  color: #ffffff;
+  font-family: 'Roboto';
+  min-height: 92px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-bg-container {
+    display: flex;
+    min-height: 90vh;
+  }
+}
+
+.jobs-filter-container {
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-filter-container {
+    min-width: 320px;
+    padding: 32px;
+    padding-left: 64px;
+  }
+}
+
+.job-item-mobile-input-container {
+  display: flex;
+  border: 1px solid #475569;
+  width: 100%;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-mobile-input-container {
+    display: none;
+  }
+}
+
+.job-item-desktop-input-container {
+  display: flex;
+  border: 1px solid #475569;
+  border-radius: 3px;
+  max-width: 340px;
+}
+
+@media screen and (max-width: 767px) {
+  .job-item-desktop-input-container {
+    display: none;
+  }
+}
+
+.job-item-input {
+  flex-grow: 1;
+  height: 40px;
+  background-color: #000000;
+  border: none;
+  border-radius: 3px;
+  padding: 12px 16px;
+  outline: none;
+  color: #ffffff;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-input {
+    max-width: 300px;
+  }
+}
+
+.job-item-search-button {
+  height: 40px;
+  width: 10%;
+  max-width: 38px;
+  border: none;
+  background-color: #272727;
+  font-size: 14px;
+  border-radius: 0 3px 3px 0;
+  color: #cbd5e1;
+}
+
+@media screen and (min-width: 768px) {
+  .job-item-search-button {
+    width: 40px;
+  }
+}
+
+.jobs-list-container {
+  width: 100%;
+  padding: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-list-container {
+    padding: 32px 64px 32px 0;
+  }
+}
+
+.jobs-filter-heading {
+  font-size: 16px;
+  color: #f8fafc;
+  font-weight: 500;
+  margin: 8px 0;
+}
+
+.jobs-filter-list {
+  list-style-type: none;
+  padding: 0;
+}
+
+.jobs-filter-item {
+  display: flex;
+  align-items: center;
+  margin-bottom: 12px;
+}
+
+.jobs-filter-label {
+  font-size: 12px;
+  font-weight: 400;
+  margin-left: 8px;
+  color: #f8fafc;
+}
+
+.jobs-list {
+  list-style-type: none;
+  padding-left: 0;
+}
+
+.job-item-hr-line {
+  border: 1px solid #475569;
+  margin-bottom: 16px;
+}
+
+.jobs-not-found-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 95%;
+  margin-top: 64px;
+}
+
+.jobs-not-found-image {
+  width: 95%;
+  max-width: 600px;
+  margin-bottom: 16px;
+}
+
+.jobs-not-found-heading {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-not-found-heading {
+    font-size: 34px;
+  }
+}
+
+.jobs-not-found-description {
+  margin-top: 0;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #cbd5e1;
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-not-found-description {
+    font-size: 14px;
+  }
+}
+
+.jobs-failure-container {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  max-width: 95%;
+  margin-top: 64px;
+}
+
+.jobs-failure-image {
+  width: 95%;
+  max-width: 600px;
+  margin-bottom: 16px;
+}
+
+.jobs-failure-heading {
+  font-size: 20px;
+  text-align: center;
+  font-family: 'Roboto';
+  color: #f8fafc;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-failure-heading {
+    font-size: 34px;
+  }
+}
+
+.jobs-failure-description {
+  margin-top: 0;
+  font-size: 12px;
+  font-family: 'Roboto';
+  font-weight: 500;
+  color: #cbd5e1;
+  text-align: center;
+  width: 80%;
+  max-width: 500px;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-failure-description {
+    font-size: 14px;
+  }
+}
+
+.jobs-failure-retry-button {
+  background-color: #4f46e5;
+  border: none;
+  width: 72px;
+  height: 30px;
+  border-radius: 3px;
+  color: #f8fafc;
+  font-size: 12px;
+  font-weight: 600;
+  font-family: 'Roboto';
+  outline: none;
+}
+
+@media screen and (min-width: 768px) {
+  .jobs-failure-retry-button {
+    width: 85px;
+    height: 36px;
+    border-radius: 4px;
+    font-size: 14px;
+  }
+}
